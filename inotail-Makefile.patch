@@ -1,0 +1,11 @@
+--- ./Makefile.org	2007-09-07 13:33:06.000000000 +0200
++++ ./Makefile	2008-12-03 09:48:32.569714441 +0100
+@@ -12,7 +12,7 @@
+ MANDIR	= $(prefix)/share/man/man1
+ 
+ CC	:= gcc
+-CFLAGS	:= $(CFLAGS) -pipe -D_USE_SOURCE -DVERSION="\"$(VERSION)\"" -W -Wall \
++CFLAGS	:= $(OPTFLAGS) -pipe -D_USE_SOURCE -DVERSION="\"$(VERSION)\"" -W -Wall \
+ 	   -Wstrict-prototypes -Wsign-compare -Wshadow -Wchar-subscripts \
+ 	   -Wmissing-declarations -Wpointer-arith -Wcast-align -Wmissing-prototypes
+ 
