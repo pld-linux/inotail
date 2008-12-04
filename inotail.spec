@@ -1,7 +1,7 @@
 Summary:	inotify "tail"
 Name:		inotail
 Version:	0.5
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://distanz.ch/inotail/%{name}-%{version}.tar.bz2
